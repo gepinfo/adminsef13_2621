@@ -203,7 +203,7 @@ services:
     image: systementry-2621
     container_name: systementry-2621
     ports: 
-      - 8010:8010
+      - 8012:8012
     env_file: .env
     depends_on:
       - mongo
